@@ -214,3 +214,68 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Portfolio Grid */
+.projects-grid {
+    display: flex;
+    justify-content: space-around; /* Spreads out the items evenly */
+    flex-wrap: wrap;
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+}
+
+.project-card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Makes sure the image fits in the square */
+    transition: transform 0.3s ease; /* Smooth zoom on hover */
+}
+
+.project-card:hover img {
+    transform: scale(1.1); /* Zoom the image on hover */
+}
+
+.project-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Fade-in effect */
+    text-align: center;
+}
+
+.project-card:hover .project-info {
+    opacity: 1; /* Show the project info on hover */
+}
+
+.project-info h3 {
+    color: white;
+}
+.project-info h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.project-info p {
+    font-size: 1em;
+}
