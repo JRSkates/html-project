@@ -8,10 +8,6 @@ Welcome to my portfolio! This website showcases my projects and skills as a web 
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Project Structure](#project-structure)
-- [Live Demo](#live-demo)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About
 
