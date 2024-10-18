@@ -89,7 +89,7 @@ h1 {
 
 /* Bio */
 .bio-main {
-    padding-bottom: 40px;
+    padding: 10px 10px
 }
 
 #bio {
@@ -161,4 +161,56 @@ h1 {
     background-color: #cdc6e9;;
     border-radius: 5px;
     font-size: 1.2em;
+}
+
+/* Experience */
+
+.experience-main {
+    padding: 10px 10px
+}
+
+#experience {
+    padding: 50px 20px;
+    text-align: left;
+    text-align: center; /* Center-aligns all text inside the section */
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.experience-section {
+    margin-bottom: 40px;
+}
+
+.job, .education, .project {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
