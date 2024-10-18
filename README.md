@@ -2,6 +2,10 @@
 
 Welcome to my portfolio! This website showcases my projects and skills as a web developer. It serves as a platform to demonstrate my work, including details about each project and the technologies used.
 
+## Deployed Link
+
+You can access the deployed version of this project here: [Deployed Portfolio](https://html-project-jrskates.vercel.app/index.html).
+
 ## Table of Contents
 
 - [About](#about)
@@ -17,9 +21,7 @@ This portfolio is designed to present my work as a web developer in an engaging 
 
 - HTML
 - CSS
-- JavaScript
-- React (if applicable)
-- Node.js (if applicable)
+- JavaScript (pending)
 - Any other technologies you used
 
 ## Features
