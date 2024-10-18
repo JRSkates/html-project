@@ -219,7 +219,7 @@ a:hover {
     display: flex;
     justify-content: space-around; /* Spreads out the items evenly */
     flex-wrap: wrap;
-    gap: 20px; /* Space between grid items */
+    gap: 50px; /* Space between grid items */
     padding: 20px;
 }
 
