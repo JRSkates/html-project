@@ -1,6 +1,6 @@
 # Jack Skates Portfolio
 
-Welcome to my portfolio! This website showcases my projects and skills as a web developer. It serves as a platform to demonstrate my work, including details about each project and the technologies used.
+Welcome to my portfolio! This website showcases my projects and skills as a Software Engineer. It serves as a platform to demonstrate my work, including details about each project and the technologies used.
 
 ## Deployed Link
 
@@ -22,7 +22,6 @@ This portfolio is designed to present my work as a web developer in an engaging 
 - HTML
 - CSS
 - JavaScript (pending)
-- Any other technologies you used
 
 ## Features
 
