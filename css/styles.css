@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%; /* Make the HTML and body 100% of the viewport height */
+}
+
 body {
+    display: flex;
+    flex-direction: column; /* Flexbox layout to stack header, main, footer */
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -35,17 +41,15 @@ nav ul li a {
 }
 
 main {
-    padding: 20px;
-    text-align: center;
+    flex-grow: 1; /* This makes the main section grow to fill the available space */
+    padding: 50px 20px;
 }
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
@@ -80,5 +84,81 @@ h1 {
 .quote {
     font-style: italic;
     color: #007BFF;
+    font-size: 1.2em;
+}
+
+/* Bio */
+.bio-main {
+    padding-bottom: 40px;
+}
+
+#bio {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #cdc6e9;
+    
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.bio-section {
+    margin-bottom: 30px;
+}
+
+.bio-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.intro {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+
+}
+
+.interests {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.interests li {
+    margin: 0 15px;
+    padding: 10px;
+    background-color: #cdc6e9;;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+}
+
+.skill {
+    margin: 0 15px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.fun-facts {
+    list-style: none;
+    padding: 20px ;
+    justify-content: center;
+}
+
+.fun-facts li {
+    margin: 0 30px;
+    padding: 10px;
+    background-color: #cdc6e9;;
+    border-radius: 5px;
     font-size: 1.2em;
 }
